@@ -1,7 +1,7 @@
 from django.core.validators import RegexValidator
 from rest_framework import serializers
 
-from .models import PCModel
+from core.models import PCModel
 
 
 class PCSerializer(serializers.ModelSerializer):
